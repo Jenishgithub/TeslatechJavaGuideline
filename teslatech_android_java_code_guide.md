@@ -27,7 +27,7 @@ Naming conventions for drawables:
 | Notification | `notification_`	| `notification_bg.9.png`     |
 | Tabs         | `tab_`            | `tab_pressed.9.png`         |
 
-Naming conventions for icons (taken from [Android iconography guidelines](http://developer.android.com/design/style/iconography.html)):
+Naming conventions for icons (More from [Android iconography guidelines](http://developer.android.com/design/style/iconography.html)):
 
 | Asset Type                      | Prefix             | Example                      |
 | --------------------------------| ----------------   | ---------------------------- |
@@ -107,8 +107,8 @@ try {
 }
 ```
 
-Explanation:
-_In almost all cases, it's inappropriate to catch generic Exception or Throwable (preferably not Throwable because it includes Error exceptions). It's dangerous because it means that exceptions you never expected (including runtime exceptions like ClassCastException) get caught in app-level error handling. It obscures the failure- handling properties of your code, meaning if someone adds a new type of exception in the code you're calling, the compiler won't point out that you need to handle the error differently. In most cases you shouldn't be handling different types of exceptions in the same way.
+*Explanation:
+_In almost all cases, it's inappropriate to catch generic Exception or Throwable (preferably not Throwable because it includes Error exceptions). It's dangerous because it means that exceptions you never expected (including runtime exceptions like ClassCastException) get caught in app-level error handling. It obscures the failure- handling properties of your code, meaning if someone adds a new type of exception in the code you're calling, the compiler won't point out that you need to handle the error differently. In most cases you shouldn't be handling different types of exceptions in the same way.*
 
 
 
